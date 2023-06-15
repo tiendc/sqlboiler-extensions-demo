@@ -1,0 +1,32 @@
+debug=true
+pkgname="models"
+output="db/models"
+wipe=true
+no-tests=true
+
+[mysql]
+  blacklist=["schema_migrations"]
+  dbname="mydb"
+  host="localhost"
+  port=3306
+  user="admin"
+  pass="password"
+  sslmode="false"
+
+[psql]
+  blacklist=["schema_migrations"]
+  dbname="mydb"
+  host="localhost"
+  port=5432
+  user="admin"
+  pass="password"
+  sslmode="disable"
+
+[crdb]
+  blacklist=["schema_migrations"]
+  dbname="mydb"
+  host="localhost"
+  port=26257
+  user="admin"
+  pass="password"
+  sslmode="disable"

@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  db:
+    image: cockroachdb/cockroach
+    command: start-single-node --insecure
+    volumes:
+      - db_cockroach:/var/lib/cockroach
+      - ./docker-init/cockroach:/docker-entrypoint-initdb.d
+    ports:
+      - 26257:26257
+      - 8080:8080
+    restart: unless-stopped
+
+volumes:
+  db_cockroach:
+    driver: local
