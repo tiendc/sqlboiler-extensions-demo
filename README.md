@@ -4,8 +4,15 @@
 
 ## Step-by-step
 
-1. Add the repo [sqlboiler-extensions](https://github.com/tiendc/sqlboiler-extensions) to your project as a submodule
+1. Add [sqlboiler-extensions](https://github.com/tiendc/sqlboiler-extensions) to your project
     ```shell
+    # Method 1: use go get
+    go get -u github.com/tiendc/sqlboiler-extensions@latest
+    ```
+   
+    ```shell
+    # Method 2: add the extensions to your project as a submodule
+    # NOTE: if use this method, you need to use relative path in Makefile (--templates ./db/extensions/...)
     git submodule add --name "db/extensions"  https://github.com/tiendc/sqlboiler-extensions.git "db/extensions"
     git submodule update --init
     ```
@@ -15,9 +22,9 @@
     docker-compose -f docker-compose.<<db>>.yaml up -d
     ```
  
-3. Generate DB models with SQLboiler
+3. Generate DB models with SQLboiler (see [Makefile](./Makefile) for details)
     ```shell
-    make prepare-<<db>>
+    make prepare
     make gen-models-<<db>>
     ```
 

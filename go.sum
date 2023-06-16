@@ -424,6 +424,10 @@ github.com/stretchr/testify v1.7.5/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/subosito/gotenv v1.3.0/go.mod h1:YzJjq/33h7nrwdY+iHMhEOEEbW0ovIz0tB6t6PwAXzs=
 github.com/subosito/gotenv v1.4.1/go.mod h1:ayKnFf/c6rvx/2iiLrJUk1e6plDbT3edrFNGqEflhK0=
+github.com/tiendc/sqlboiler-extensions v0.0.0-20230615105757-dbb2e08ac1cf h1:G+7Xralbs5bMuwCVUGYudt9Vx78+PFU0cekx60p5aHs=
+github.com/tiendc/sqlboiler-extensions v0.0.0-20230615105757-dbb2e08ac1cf/go.mod h1:JV5fMWqkOZn1v3dhaHZ5DBJQCjIogA7oyOiyCHUD7Ns=
+github.com/tiendc/sqlboiler-extensions v0.6.0 h1:oWoCYcf9SaEbXXNN2hhxs0vgr+nHtvhErsAg0Zug3vo=
+github.com/tiendc/sqlboiler-extensions v0.6.0/go.mod h1:JV5fMWqkOZn1v3dhaHZ5DBJQCjIogA7oyOiyCHUD7Ns=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926/go.mod h1:9ESjWnEqriFuLhtthL60Sar/7RFoluCcXsuvEwTV5KM=
 github.com/volatiletech/inflect v0.0.1 h1:2a6FcMQyhmPZcLa+uet3VJ8gLn/9svWhJxJYwvE8KsU=
 github.com/volatiletech/inflect v0.0.1/go.mod h1:IBti31tG6phkHitLlr5j7shC5SOo//x0AjDzaJU1PLA=
