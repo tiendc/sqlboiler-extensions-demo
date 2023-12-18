@@ -19,16 +19,16 @@
    
 2. Start the equivalent test env (there are tests for mysql, postgres, and cockroachdb)
     ```shell
-    docker-compose -f docker-compose.<<db>>.yaml up -d
+    docker-compose -f docker-compose.<<db>>.yaml up -d // <<db>> can be 'mysql', 'postgres', 'crdb'
     ```
  
 3. Generate DB models with SQLboiler (see [Makefile](./Makefile) for details)
     ```shell
     make prepare
-    make gen-models-<<db>>
+    make gen-models-<<db>> // <<db>> can be 'mysql', 'postgres', 'crdb'
     ```
 
 4. Run the test code (you can see the detailed usage in [main](./main))
     ```shell
-    make run-test-<<db>>
+    make run-test-<<db>> // <<db>> can be 'mysql', 'postgres', 'crdb'
     ```
