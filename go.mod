@@ -14,7 +14,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
-	github.com/tiendc/sqlboiler-extensions v0.6.0 // indirect
+	github.com/tiendc/sqlboiler-extensions v0.7.0 // indirect
 	github.com/volatiletech/inflect v0.0.1 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
