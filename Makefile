@@ -1,6 +1,6 @@
 PATH := $(PATH):$(GOPATH)/bin
 BOIL_VER := v4.15.0
-BOIL_EXT_VER := v0.7.1
+BOIL_EXT_VER := v0.7.2
 
 prepare:
 	@go get -u github.com/tiendc/sqlboiler-extensions@$(BOIL_EXT_VER)
