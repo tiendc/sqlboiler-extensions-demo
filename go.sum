@@ -438,6 +438,8 @@ github.com/tiendc/sqlboiler-extensions v0.7.2 h1:wmuWs19TyDAIDyYLaNdO8f1HG2GKRVj
 github.com/tiendc/sqlboiler-extensions v0.7.2/go.mod h1:JV5fMWqkOZn1v3dhaHZ5DBJQCjIogA7oyOiyCHUD7Ns=
 github.com/tiendc/sqlboiler-extensions v0.7.3 h1:l0oGM8/wRpML5/4cy8PeeH32rKSLaXMTTmk6cElkIuM=
 github.com/tiendc/sqlboiler-extensions v0.7.3/go.mod h1:JV5fMWqkOZn1v3dhaHZ5DBJQCjIogA7oyOiyCHUD7Ns=
+github.com/tiendc/sqlboiler-extensions v0.8.0 h1:/AmWDhpS1deY7DFK+bfGlUaspqhIL63ApyuldWNwV0w=
+github.com/tiendc/sqlboiler-extensions v0.8.0/go.mod h1:JV5fMWqkOZn1v3dhaHZ5DBJQCjIogA7oyOiyCHUD7Ns=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926/go.mod h1:9ESjWnEqriFuLhtthL60Sar/7RFoluCcXsuvEwTV5KM=
 github.com/volatiletech/inflect v0.0.1 h1:2a6FcMQyhmPZcLa+uet3VJ8gLn/9svWhJxJYwvE8KsU=
 github.com/volatiletech/inflect v0.0.1/go.mod h1:IBti31tG6phkHitLlr5j7shC5SOo//x0AjDzaJU1PLA=

@@ -14,7 +14,7 @@ require (
 	github.com/glerchundi/sqlboiler-crdb/v4 v4.0.0-20220611221519-7b35c4d19c05 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/tiendc/sqlboiler-extensions v0.7.3 // indirect
+	github.com/tiendc/sqlboiler-extensions v0.8.0 // indirect
 	github.com/volatiletech/inflect v0.0.1 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 )
